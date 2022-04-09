@@ -1,0 +1,120 @@
+/* GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pink{
+    background-color: #f4ac9a;
+}
+
+.red{
+    background-color: red;
+}
+
+#bomb{
+    width: 100%;
+}
+/* HEADER */
+.hContainer{
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hLeft, .hRight{
+    display: flex;
+    align-items: center;
+}
+
+.hLeft h1{
+    height: 2vw;
+    padding-left: 10px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hLeft img{
+    height: 60px;
+}
+
+.hRight{
+    font-size: 20px;
+}
+
+.hRight #start{
+    background-color: #156d8f;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 0;
+}
+
+.hRight #level-difficulty{
+    margin: 0 10px;
+}
+
+/* MAIN */
+main{
+    width: 100%;
+    height: calc(100vh - 140px);
+    background-color: #156d8f;
+    position: relative;
+    overflow-y: auto;
+}
+
+.mContainer{  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.goContainer{
+    width: 600px;
+    height: 600px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.grid{
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    
+}
+
+/* FOOTER */
+.fContainer{
+    width: 90%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.fContainer span{
+    font-size: 20px;
+}
